@@ -1,13 +1,13 @@
 # 絵文字だけでつながるSNS 体験授業キット
 プログラミング未経験の高校生向けに、「絵文字だけでつながるSNS」を仕様書づくりから実装まで体験するためのリポジトリです。  
-VS Code + GitHub Copilot もしくは Antigravity + Gemini 3.0 Pro で進行できます。
+VS Code + GitHub Copilot (Gemini 3.0 Pro or Claude Sonnet 4.5) もしくは Antigravity + Gemini 3.0 Pro での動作を想定しています。
 
 ## 進め方（65分体験を想定）
 1. `input/specify.md` を埋める（5〜10分）
-2. `spec.prompt.md` で `output/spec.md` を生成（5分）
-3. `plan.prompt.md` で `output/plan.md` を生成（5分）
-4. `task.prompt.md` で `output/task.md` を生成（5分）
-5. `implement.prompt.md` を見ながら最小プロトタイプを実装（30〜35分）
+2. チャットで `/spec` を実行し、 `output/spec.md` を生成（5分）
+3. チャットで `/plan` を実行し `output/plan.md` を生成（5分）
+4. チャットで `/task` を実行し で `output/task.md` を生成（5分）
+5. チャットで `/implement` を実行し、最小プロトタイプを実装（30〜35分）
 6. デモ・振り返り（5分）
 
 ## 実装ゴールの目安
@@ -21,3 +21,6 @@ VS Code + GitHub Copilot もしくは Antigravity + Gemini 3.0 Pro で進行で�
   VS Code で「Reopen in Container」を選択
 - ローカル実行の想定コマンド例:  
   `npm install && npm run dev`
+
+## slide(校内用)
+[Emoji SNS Workshop](https://docs.google.com/presentation/d/e/2PACX-1vSwFBkzYOmwOJNQBh7fEyKXo1UViyI58H-eqw_oI3FOcl1SgUzIHa7jvZ_Kxxk8uyM9JpmWuq9SpJXl/pub?start=false&loop=false&delayms=10000)
