@@ -21,3 +21,6 @@ VS Code + GitHub Copilot (Gemini 3.0 Pro or Claude Sonnet 4.5) もしくは Anti
   VS Code で「Reopen in Container」を選択
 - ローカル実行の想定コマンド例:  
   `npm install && npm run dev`
+
+## slide(校内用)
+[Emoji SNS Workshop](https://docs.google.com/presentation/d/e/2PACX-1vSwFBkzYOmwOJNQBh7fEyKXo1UViyI58H-eqw_oI3FOcl1SgUzIHa7jvZ_Kxxk8uyM9JpmWuq9SpJXl/pub?start=false&loop=false&delayms=10000)
